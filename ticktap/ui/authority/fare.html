@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fare Management</title>
+  <link rel="stylesheet" href="../common/style.css">
+</head>
+<body>
+
+<header><h1>Fare Management</h1></header>
+
+<div class="container">
+  <div class="card">
+    <h2>Set Fare</h2>
+
+    <select>
+      <option>Bus</option>
+      <option>Train</option>
+      <option>Flight</option>
+    </select>
+
+    <select>
+      <option>Economy</option>
+      <option>Business</option>
+      <option>First</option>
+    </select>
+
+    <input placeholder="Base Fare">
+
+    <button class="success">Save Fare</button>
+  </div>
+
+  <div class="card">
+    <h3>Fare Chart</h3>
+    <table>
+      <tr><th>Vehicle</th><th>Class</th><th>Fare</th></tr>
+      <tr><td>Bus</td><td>Economy</td><td>800</td></tr>
+      <tr><td>Flight</td><td>Business</td><td>5500</td></tr>
+    </table>
+  </div>
+</div>
+
+<footer>Dynamic pricing enforced by DB</footer>
+</body>
+</html>
